@@ -146,35 +146,15 @@ Geospatial visualization (Folium HeatMap)
 
 Reusable, modular Python code
 
-📁 Project Structure
-City-Mobility/
-│
-├── data/
-│   ├── raw/trafficaccident.csv
-│   └── db/milwaukee_crashes.db
-│
-├── src/
-│   └── load.py        # ETL + geocoding script
-│
-├── dashboard/
-│   └── app.py         # Streamlit dashboard
-│
-├── docs/
-│   └── dashboard.png  # screenshot for README
-│
-└── requirements.txt
-
 🔒 Environment Variables
+
 Variable	Description	Example
+
 GEOCODE_MODE	"cache_only" / "limited" / "all"	limited
 GEOCODE_MAX	How many new addresses to geocode per run	100
 USER_AGENT	Identify yourself to Nominatim	MilwaukeeCrashInsights/1.0
 
 (For permanent setup, create a .env file or export vars in your shell.)
-
-📸 Example Screenshot
-
-Replace this with your own screenshot image
 
 🌟 Future Improvements
 
@@ -190,8 +170,8 @@ Deploy on Streamlit Cloud or Render
 
 Zach Schaub
 Data / AI Developer • University of Wisconsin–Milwaukee
-LinkedIn
- • GitHub
+https://www.linkedin.com/in/zachariya-schaub/
+ • github.com/m6wt
 
 📜 License
 
