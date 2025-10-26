@@ -30,6 +30,7 @@ Streamlit visualization and UI design
 Geospatial data processing and heat mapping
 
 🧱 Tech Stack
+
 Layer	Tool / Library	Purpose
 Language	Python 3.11	Core logic
 Data Handling	pandas	Cleaning & transformation
@@ -86,7 +87,7 @@ streamlit run dashboard\app.py
 
 
 Then open http://localhost:8501
- in your browser.
+in your browser.
 
 🗺️ Features
 
