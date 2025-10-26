@@ -37,27 +37,6 @@ Database	SQLite + SQLAlchemy	Lightweight relational storage
 Geocoding	OpenStreetMap Nominatim API	Convert addresses → coordinates
 Visualization	Streamlit + Folium	Interactive dashboard + heat map
 Version Control	Git / GitHub	Project tracking & portfolio
-⚙️ Architecture
-trafficaccident.csv
-        │
-        ▼
-  ┌───────────────┐
-  │ load.py (ETL) │
-  ├───────────────┤
-  │ - Cleans CSV  │
-  │ - Adds columns│
-  │ - Geocodes    │
-  │ - Saves SQLite│
-  └───────┬───────┘
-          │
-   milwaukee_crashes.db
-          │
-          ▼
-  ┌──────────────────────┐
-  │ app.py (Streamlit UI)│
-  │ - Filters & charts   │
-  │ - KPIs & heat map    │
-  └──────────────────────┘
 
 📦 Installation & Setup
 1️⃣ Clone the repo
